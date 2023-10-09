@@ -1,0 +1,58 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------
+#id="carouselHeroCaptions"*/
+
+#carouselHeroCaptions {
+  position: relative;
+}
+
+#carouselHeroCaptions::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Aquí puedes ajustar el nivel de opacidad (0.5 para un 50% de opacidad) */
+  z-index: 1; /* Asegura que la capa esté sobre la imagen de fondo */
+}
+
+#carouselHeroCaptions .carousel-inner img {
+  height: 95vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+#carouselHeroCaptions .carousel-inner .carousel-caption {
+  text-align: start;
+  position: absolute;
+  right: 15%;
+  bottom: 40%;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  max-width: 40%;
+  z-index: 2; /* Coloca .carousel-caption por encima de la capa semi-transparente */
+}
+
+#carouselHeroCaptions .carousel-inner .carousel-caption .getstarted {
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: var(--text-color-b);
+  font-size: 14px;
+  border: 2px solid var(--secondary-color);
+  font-weight: 600;
+  background: transparent;
+}
+
+#carouselHeroCaptions .carousel-inner .carousel-caption .getstarted:hover {
+  color: var(--text-color-b);
+  background: var(--secondary-color);
+}

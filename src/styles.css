@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+/* colors.css */
+:root {
+      --primary-color: #133f6c;
+      --secondary-color: #00bbd4;
+      --text-color: #333;
+      --text-color-b: #fff;
+      --background-color: #fff;
+      --box-shadow:0px 0px 30px rgba(127, 137, 161, 0.25);
+    }
