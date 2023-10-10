@@ -9,6 +9,7 @@ import { HeroComponent } from './componentes/hero/hero.component';
 import { SeccionServiciosComponent } from './componentes/seccion-servicios/seccion-servicios.component';
 import { SeccionTestimoniosComponent } from './componentes/seccion-testimonios/seccion-testimonios.component';
 import { ZFooterComponent } from './componentes/z-footer/z-footer.component';
+import { BotonWhatsappComponent } from './componentes/boton-whatsapp/boton-whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ZFooterComponent } from './componentes/z-footer/z-footer.component';
     HeroComponent,
     SeccionServiciosComponent,
     SeccionTestimoniosComponent,
-    ZFooterComponent
+    ZFooterComponent,
+    BotonWhatsappComponent
   ],
   imports: [
     BrowserModule,
