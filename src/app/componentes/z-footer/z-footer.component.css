@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 #footer {
       font-size: 14px;
-      background: #37517e;
+      background: var(--primary-color);
     }
     
     #footer .footer-newsletter {
