@@ -10,6 +10,8 @@ import { SeccionServiciosComponent } from './componentes/seccion-servicios/secci
 import { SeccionTestimoniosComponent } from './componentes/seccion-testimonios/seccion-testimonios.component';
 import { ZFooterComponent } from './componentes/z-footer/z-footer.component';
 import { BotonWhatsappComponent } from './componentes/boton-whatsapp/boton-whatsapp.component';
+import { QuienesSomosComponent } from './quienes-somos/quienes-somos/quienes-somos.component';
+import { InicioComponent } from './inicio/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { BotonWhatsappComponent } from './componentes/boton-whatsapp/boton-whats
     SeccionServiciosComponent,
     SeccionTestimoniosComponent,
     ZFooterComponent,
-    BotonWhatsappComponent
+    BotonWhatsappComponent,
+    QuienesSomosComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
