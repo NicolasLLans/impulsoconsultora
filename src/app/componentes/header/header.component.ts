@@ -27,11 +27,14 @@ export class HeaderComponent {
       });
   
       navLinks.forEach((link: HTMLElement) => {
-        link.addEventListener('click', () => {
+        link.addEventListener('click', (e: Event) => {
           if (navbar.classList.contains('navbar-mobile')) {
-            navbar.classList.remove('navbar-mobile');
-            mobileNavToggle.classList.toggle('bi-list');
-            mobileNavToggle.classList.toggle('bi-x');
+            // Cierra el menú móvil si se hace clic en un enlace con la clase 'scrollto' o en un <span> dentro de elementos con la clase 'dropdown'
+            if (link.classList.contains('scrollto') || (e.target instanceof Element && e.target.tagName === 'SPAN' && link.classList.contains('dropdown'))) {
+              navbar.classList.remove('navbar-mobile');
+              mobileNavToggle.classList.toggle('bi-list');
+              mobileNavToggle.classList.toggle('bi-x');
+            }
           }
         });
       });
@@ -44,12 +47,11 @@ export class HeaderComponent {
             const dropdownMenu = link.nextElementSibling as HTMLElement;
             dropdownMenu.classList.toggle('dropdown-active');
           }
-        }, true);
+        });
       });
     }
   }
   
-
   @HostListener('window:scroll', [])
   onWindowScroll() {
     if (window.scrollY > 100) {
