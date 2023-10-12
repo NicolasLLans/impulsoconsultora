@@ -14,6 +14,7 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos/quienes-som
 import { InicioComponent } from './inicio/inicio/inicio.component';
 import { ContactoComponent } from './contacto/contacto/contacto.component';
 import { BotonSubirComponent } from './componentes/boton-subir/boton-subir.component';
+import { ServicioComponent } from './servicios/servicio/servicio.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { BotonSubirComponent } from './componentes/boton-subir/boton-subir.compo
     QuienesSomosComponent,
     InicioComponent,
     ContactoComponent,
-    BotonSubirComponent
+    BotonSubirComponent,
+    ServicioComponent
   ],
   imports: [
     BrowserModule,
