@@ -1,0 +1,24 @@
+.floating-button {
+  position: fixed;
+  bottom: 130px;
+  right: 37px;
+  z-index: 999;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.floating-button button {
+  border-radius: 50%;
+  padding: 14px 16px;
+  font-size: 20px;
+  width: 60px;
+  background-color: #007bff; /* Cambia el color de fondo del botón según tus preferencias */
+}
+
+.floating-button button i {
+  color: #fff; /* Color del icono */
+}
+
+.floating-button:hover {
+  opacity: 1;
+}

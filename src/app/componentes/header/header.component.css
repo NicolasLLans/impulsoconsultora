@@ -189,7 +189,7 @@
       right: 0;
       left: 0;
       bottom: 0;
-      background: var(--primary-color);
+      background: #133f6cad;;
       transition: 0.3s;
       z-index: 999;
     }

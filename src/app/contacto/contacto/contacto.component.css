@@ -1,0 +1,35 @@
+.divisor-superior {
+  height: 70px;
+  filter: blur(1px);
+  background: var(--primary-color);
+}
+
+.divisor {
+  background-color: var(--primary-color);
+  height: 250px;
+  margin-bottom: -150px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-wrap: balance;
+}
+
+.info{
+      min-height: 250px;
+}
+
+a {
+  color: var(--text-color-b);
+}
+
+span{
+      background-color: var(--primary-color);
+}
+
+span:hover {
+  background: var(--secondary-color) !important;
+  transform: translateY(-3px);
+}
