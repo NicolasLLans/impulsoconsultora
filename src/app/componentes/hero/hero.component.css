@@ -39,7 +39,7 @@
   padding-bottom: 1.25rem;
   color: #fff;
   max-width: 40%;
-  z-index: 2; /* Coloca .carousel-caption por encima de la capa semi-transparente */
+  z-index: 2;
 }
 
 #carouselHeroCaptions .carousel-inner .carousel-caption .getstarted {
@@ -55,4 +55,35 @@
 #carouselHeroCaptions .carousel-inner .carousel-caption .getstarted:hover {
   color: var(--text-color-b);
   background: var(--secondary-color);
+}
+
+
+@media (max-width: 850px) {
+  #carouselHeroCaptions .carousel-inner .carousel-caption {
+    text-align: start;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    max-width: 60%;
+    z-index: 2;
+  }
+}
+
+@media (max-height: 950px) {
+  #carouselHeroCaptions .carousel-inner .carousel-caption {
+    text-align: start;
+    position: absolute;
+    right: 15%;
+    bottom: 12%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    max-width: 60%;
+    z-index: 2;
+  }
 }
