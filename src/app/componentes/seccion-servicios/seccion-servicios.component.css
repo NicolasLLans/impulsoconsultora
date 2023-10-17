@@ -20,6 +20,10 @@ header {
   margin-bottom: 20px;
 }
 
+.card img{
+  object-fit: cover;
+}
+
 .card a {
   width: 40px;
   display: flex;
@@ -29,4 +33,13 @@ header {
 .card a i {
   font-size: 40px;
   text-align: center;
+}
+
+p{
+  text-wrap: balance;
+  max-width: 60pc;
+}
+
+p span{
+  font-weight: 500;
 }
