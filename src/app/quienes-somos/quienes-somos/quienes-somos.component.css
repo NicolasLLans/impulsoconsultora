@@ -53,12 +53,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 6%;
+  margin: 10% 6%;
+  gap: 10px;
 }
 
 article p {
   max-width: 30pc;
-  text-align: center;
   display: flex;
   text-wrap: balance;
 }
@@ -72,5 +72,10 @@ article p {
 }
 .divisor-2 p{
   max-width: 600px;
-  text-align: center;
+  text-align: start;
+  padding: 0 6%;
+}
+
+.divisor-2 div h5{
+  padding: 0 6%;
 }

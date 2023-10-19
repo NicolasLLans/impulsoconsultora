@@ -8,6 +8,14 @@
   text-align: start;
 }
 
+#uno{
+  display: grid;
+  place-items: center;
+  min-height: 800px;
+  justify-content: center;
+  height: 100dvh;
+}
+
 /*seccion 2*/
 .divisor-superior {
   height: 70px;
@@ -25,10 +33,36 @@
   margin-bottom: -150px;
 }
 
+.capsula-item{
+  min-height: 100px;
+  padding: 10px;
+  border: solid 2px var(--primary-color);
+  border-radius: 12px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
 @media (max-width: 1199px) {
   .col {
     background-color: var(--background-color);
     border-radius: 20px;
     padding: 2rem;
+  }
+
+  #uno{
+    display: flex;
+    flex-direction: column;
+    min-height: 800px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 890px) {
+  .capsula-item{
+    width: 100%;
+  }
+
+  .col-6{
+    width: 100%;
   }
 }
