@@ -8,12 +8,16 @@
   text-align: start;
 }
 
-#uno{
+.contabilidad, .impuestos, .auditoria, .sueldos, .financiamiento{
   display: grid;
   place-items: center;
   min-height: 800px;
   justify-content: center;
   height: 100dvh;
+}
+ i{
+  color: rgb(22, 231, 22);
+  font-size: 30px;
 }
 
 /*seccion 2*/
@@ -38,7 +42,7 @@
   padding: 10px;
   border: solid 2px var(--primary-color);
   border-radius: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--primary-color);
 }
 
