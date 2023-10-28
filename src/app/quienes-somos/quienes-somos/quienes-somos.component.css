@@ -1,3 +1,6 @@
+section {
+  padding-top: 30px;
+}
 .col {
   display: flex;
   justify-content: center;
@@ -13,10 +16,6 @@
   height: 70px;
   filter: blur(1px);
   background: var(--primary-color);
-}
-
-#about {
-  margin-bottom: 150px;
 }
 
 .divisor {
@@ -55,10 +54,12 @@
   align-items: center;
   margin: 10% 6%;
   gap: 10px;
+  max-width: 1200px;
 }
 
 article p {
-  max-width: 30pc;
+  max-width: 70pc;
+  padding:25px 0;
   display: flex;
   text-wrap: balance;
 }
@@ -70,17 +71,79 @@ article p {
   color: var(--text-color-b);
   place-items: center;
 }
-.divisor-2 p{
+.divisor-2 p {
   max-width: 600px;
   text-align: start;
   padding: 0 6%;
 }
 
-.divisor-2 div h5{
+.divisor-2 div h5 {
   padding: 0 6%;
 }
 
-.parrafo-q-s{
-  max-width: 422px;
+.parrafo-q-s {
+  max-width: 350px;
   text-align: justify;
+}
+
+.titulo, .titulo2 {
+  font-size: 28px;
+  color: var(--text-color-b);
+  text-align: center;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.titulo2{
+  color: #333;
+}
+
+/*seccion-valores*/
+.valores-lista {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.valores-lista li {
+  border: 1px solid aquamarine;
+  padding: 5px 10px;
+}
+
+/*submenu*/
+.submenu {
+  position: fixed;
+  top: 76px;
+  right: 0;
+  background-color: #ffffffab;
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #3333336b;
+  z-index: 995;
+}
+
+.submenu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px;
+  gap: 15px;
+}
+
+.submenu ul li {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.submenu ul li a:hover {
+  color: var(--secondary-color);
 }
