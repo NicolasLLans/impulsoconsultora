@@ -11,12 +11,14 @@
 .impuestos,
 .auditoria,
 .sueldos,
-.financiamiento {
+.financiamiento,
+.skills,
+.servicios-digitales {
   display: grid;
   place-items: center;
   min-height: 800px;
   justify-content: center;
-  height: 100dvh;
+  height: 100vh;
 }
 i {
   color: rgb(22, 231, 22);
