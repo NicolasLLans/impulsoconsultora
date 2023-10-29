@@ -2,12 +2,20 @@ section {
   padding-top: 30px;
 }
 
-#cultura section {
+.titulo-h1 {
+  width: 350px;
+  font-size: 87px;
+  line-height: 1;
+}
+
+#cultura section,
+.valores {
   padding-top: 30px;
   height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .col {
   display: flex;
