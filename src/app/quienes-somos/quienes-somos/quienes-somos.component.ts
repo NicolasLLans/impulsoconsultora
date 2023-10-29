@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-quienes-somos',
@@ -7,7 +8,22 @@ import { Component } from '@angular/core';
 })
 export class QuienesSomosComponent {
 
-  constructor() {}
+  constructor(private route: ActivatedRoute, private router: Router) {
+    // Detectar cambios de ruta para realizar el scroll
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        const fragment = this.route.snapshot.fragment;
+        if (fragment) {
+          const element = document.getElementById(fragment);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }
+    });
+  }
+
+  ngOnInit(): void {}
 
   ngAfterViewInit(): void {
     const culturaLink = document.getElementById('cultura-link');
