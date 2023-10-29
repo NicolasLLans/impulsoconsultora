@@ -1,4 +1,5 @@
 import { Component, ElementRef, HostListener, Renderer2 } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,20 @@ import { Component, ElementRef, HostListener, Renderer2 } from '@angular/core';
 export class HeaderComponent {
   isHeaderScrolled: boolean = false;
 
-  constructor(private elementRef: ElementRef, private renderer: Renderer2) {}
+  constructor(private elementRef: ElementRef, private renderer: Renderer2,private route: ActivatedRoute, private router: Router) {
+    // Detectar cambios de ruta para realizar el scroll
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        const fragment = this.route.snapshot.fragment;
+        if (fragment) {
+          const element = document.getElementById(fragment);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }
+    });
+  }
 
   ngOnInit(): void {
     this.initializeEventHandlers();
