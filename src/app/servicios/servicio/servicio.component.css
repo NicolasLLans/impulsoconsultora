@@ -20,6 +20,7 @@
   justify-content: center;
   height: 100vh;
 }
+
 i {
   color: rgb(22, 231, 22);
   font-size: 30px;
@@ -30,10 +31,6 @@ i {
   height: 70px;
   filter: blur(1px);
   background: var(--primary-color);
-}
-
-#about {
-  margin-bottom: 150px;
 }
 
 .divisor {
@@ -76,5 +73,15 @@ i {
 
   .col-6 {
     width: 100%;
+  }
+
+  #contabilidad,
+  #impuestos,
+  #auditoria,
+  #sueldos,
+  #financiamiento,
+  #skills,
+  #servicios-digitales {
+    height: 50px;
   }
 }

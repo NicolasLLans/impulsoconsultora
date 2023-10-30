@@ -16,6 +16,10 @@
   margin-bottom: -150px;
 }
 
+.titulo {
+  margin: 45px 0;
+}
+
 .col {
   display: flex;
   flex-direction: column;
