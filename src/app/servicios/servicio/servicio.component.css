@@ -56,6 +56,11 @@ i {
   color: var(--primary-color);
 }
 
+#accordionExample {
+  max-width: 900px;
+  width: inherit;
+}
+
 @media (max-width: 1199px) {
   .col {
     background-color: var(--background-color);
