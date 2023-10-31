@@ -46,8 +46,12 @@ span:hover {
 }
 
 @media (max-width: 980px) {
-  
+
   .principal{
     flex-direction: column;
+  }
+
+  .col{
+    min-height: 290px;
   }
 }
