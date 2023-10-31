@@ -23,8 +23,9 @@
 .col {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   text-wrap: balance;
+  min-height: 400px;
 }
 
 .info{
