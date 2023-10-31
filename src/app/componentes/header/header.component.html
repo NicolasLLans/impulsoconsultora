@@ -4,7 +4,7 @@
   [ngClass]="{ 'header-scrolled': isHeaderScrolled }"
 >
   <div class="container d-flex align-items-center">
-    <h3 class="logo me-auto"><a href="#" >Impulso consultora</a></h3>
+    <h3 class="logo me-auto"><a href="#" ><img src="assets\img\logo-impulso-b.png" alt="impulso consultora" width="100%" ></a></h3>
     <nav id="navbar" class="navbar">
       <ul>
         <li><a class="nav-link scrollto active" routerLink="/inicio">Inicio</a></li>
@@ -15,14 +15,23 @@
           <ul>
             <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="contabilidad" >Contabilidad</a></li>
             <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="impuestos" ><span>Impuestos</span></a></li>
-            <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="auditoria" >Auditorias</a></li>
+            <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="auditoria" >Auditoria</a></li>
             <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="sueldos" >Sueldos</a></li>
             <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="financiamiento" >Financiamiento</a></li>
             <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="servicios-digitales" >Servicios digitales</a></li>
             <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="skills" >Capacitación en soft skills</a></li>
           </ul>
         </li>
-        <li><a class="nav-link scrollto" [routerLink]="['/quienes-somos']" fragment="quienes-somos" >Quienes somos</a></li>
+        <li class="dropdown">
+          <a class="nav-link scrollto"[routerLink]="['/quienes-somos']" fragment="contabilidad"
+            ><span>Quienes somos</span> <i class="bi bi-chevron-down"></i
+          ></a>
+          <ul>
+            <li><a id="cultura-link" style="cursor: pointer">Cultura</a></li>
+            <li><a id="valores-link" style="cursor: pointer">Valores</a></li>
+            <li><a id="rol-link" style="cursor: pointer">Rol</a></li>
+          </ul>
+        </li>
         <li><a class="nav-link scrollto" [routerLink]="['/contacto']" fragment="contacto" >Contacto</a></li>
         <li><a class="getstarted scrollto" id="cta" href="https://wa.link/y67gh1" target="_blank">Pedir asesoría</a></li>
       </ul>
