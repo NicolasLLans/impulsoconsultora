@@ -44,3 +44,10 @@ span:hover {
   background: var(--secondary-color) !important;
   transform: translateY(-3px);
 }
+
+@media (max-width: 980px) {
+  
+  .principal{
+    flex-direction: column;
+  }
+}
