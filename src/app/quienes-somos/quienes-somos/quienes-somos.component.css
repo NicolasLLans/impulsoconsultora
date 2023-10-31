@@ -20,9 +20,9 @@ section {
 }
 .col {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   max-height: 636px;
-  min-height: 300px;
+  min-height: 480px;
   text-wrap: balance;
   flex-direction: column;
   text-align: start;
@@ -180,7 +180,11 @@ article p {
     width: 100%;
   }
 
-  .principal{
+  .principal {
     flex-direction: column;
+  }
+
+  .col{
+    min-height: 300px;
   }
 }
