@@ -4,38 +4,143 @@
   [ngClass]="{ 'header-scrolled': isHeaderScrolled }"
 >
   <div class="container d-flex align-items-center">
-    <h3 class="logo me-auto"><a href="#" ><img src="assets\img\logo-impulso-b.png" alt="impulso consultora" width="100%" ></a></h3>
+    <h3 class="logo me-auto">
+      <a href="#">
+        <img
+          src="assets\img\logo-impulso-b.png"
+          alt="impulso consultora"
+          width="155.16"
+          height="39.98"
+        />
+      </a>
+    </h3>
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a class="nav-link scrollto active" routerLink="/inicio">Inicio</a></li>
+        <li>
+          <a class="nav-link scrollto active" routerLink="/inicio">Inicio</a>
+        </li>
         <li class="dropdown">
-          <a class="nav-link scrollto"[routerLink]="['/servicios']" fragment="contabilidad"
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/servicios']"
+            fragment="contabilidad"
             ><span>Servicios</span> <i class="bi bi-chevron-down"></i
           ></a>
           <ul>
-            <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="contabilidad" >Contabilidad</a></li>
-            <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="impuestos" ><span>Impuestos</span></a></li>
-            <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="auditoria" >Auditoria</a></li>
-            <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="sueldos" >Sueldos</a></li>
-            <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="financiamiento" >Financiamiento</a></li>
-            <li><a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="servicios-digitales" >Servicios digitales</a></li>
-            <li><a  class="nav-link scrollto"[routerLink]="['/servicios']" fragment="skills" >Capacitación en soft skills</a></li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="contabilidad"
+                >Contabilidad</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="impuestos"
+                ><span>Impuestos</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="auditoria"
+                >Auditoria</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="sueldos"
+                >Sueldos</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="financiamiento"
+                >Financiamiento</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="servicios-digitales"
+                >Servicios digitales</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="skills"
+                >Capacitación en soft skills</a
+              >
+            </li>
           </ul>
         </li>
         <li class="dropdown">
-          <a class="nav-link scrollto"[routerLink]="['/quienes-somos']" fragment="quienes-somos"
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/quienes-somos']"
+            fragment="quienes-somos"
             ><span>Quienes somos</span> <i class="bi bi-chevron-down"></i
           ></a>
           <ul>
-            <li><a id="cultura-link" style="cursor: pointer"[routerLink]="['/quienes-somos']" fragment="cultura">Cultura</a></li>
-            <li><a id="valores-link" style="cursor: pointer" [routerLink]="['/quienes-somos']" fragment="valores">Valores</a></li>
-            <li><a id="rol-link" style="cursor: pointer" [routerLink]="['/quienes-somos']" fragment="rol">Rol</a></li>
+            <li>
+              <a
+                id="cultura-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="cultura"
+                >Cultura</a
+              >
+            </li>
+            <li>
+              <a
+                id="valores-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="valores"
+                >Valores</a
+              >
+            </li>
+            <li>
+              <a
+                id="rol-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="rol"
+                >Rol</a
+              >
+            </li>
           </ul>
         </li>
-        <li><a class="nav-link scrollto" [routerLink]="['/contacto']" fragment="contacto" >Contacto</a></li>
-        <li><a class="getstarted scrollto" id="cta" href="https://wa.link/y67gh1" target="_blank">Pedir asesoría</a></li>
+        <li>
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/contacto']"
+            fragment="contacto"
+            >Contacto</a
+          >
+        </li>
+        <li>
+          <a
+            class="getstarted scrollto"
+            id="cta"
+            href="https://wa.link/y67gh1"
+            target="_blank"
+            >Pedir asesoría</a
+          >
+        </li>
       </ul>
-      <i class="mobile-nav-toggle bi bi-list" ></i>
+      <i class="mobile-nav-toggle bi bi-list"></i>
     </nav>
     <!-- .navbar -->
   </div>
