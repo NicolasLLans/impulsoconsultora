@@ -30,7 +30,7 @@ header {
 .card-body{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .card a {
@@ -47,6 +47,7 @@ header {
 p{
   text-wrap: balance;
   max-width: 60pc;
+  min-height: 144px;
 }
 
 p span{
