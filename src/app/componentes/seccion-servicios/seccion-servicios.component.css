@@ -42,6 +42,14 @@ header {
 .card a i {
   font-size: 40px;
   text-align: center;
+  color: var(--secondary-color);
+}
+
+.card a i:hover{
+  font-size: 40px;
+  text-align: center;
+  color: var(--primary-color);
+  transform: translateY(-5px);
 }
 
 p{
