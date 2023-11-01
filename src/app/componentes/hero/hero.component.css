@@ -2,7 +2,9 @@
 # Hero Section
 --------------------------------------------------------------
 #id="carouselHeroCaptions"*/
-
+.getstarted{
+  text-decoration: none;
+}
 #carouselHeroCaptions {
   position: relative;
 }
