@@ -21,7 +21,6 @@ section {
 .col {
   display: flex;
   justify-content: flex-end;
-  max-height: 636px;
   min-height: 480px;
   text-wrap: balance;
   flex-direction: column;
@@ -186,5 +185,9 @@ article p {
 
   .col{
     min-height: 300px;
+  }
+
+  .about{
+    width: 100%;
   }
 }
