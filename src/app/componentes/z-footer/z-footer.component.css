@@ -159,6 +159,11 @@
   color: aquamarine;
 }
 
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
