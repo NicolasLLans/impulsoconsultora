@@ -1,6 +1,6 @@
 .col {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   min-height: 300px;
   text-wrap: balance;
   flex-direction: column;
@@ -41,11 +41,11 @@ i {
     rgba(19, 63, 108, 1) 49%,
     rgba(102, 200, 182, 1) 100%
   );
-  height: 250px;
+  height: 150px;
 }
 
 .capsula-item {
-  min-height: 100px;
+  min-height: 130px;
   padding: 10px;
   border: solid 2px var(--primary-color);
   border-radius: 12px;
@@ -56,6 +56,11 @@ i {
 #accordionExample {
   max-width: 900px;
   width: inherit;
+}
+
+p{
+  max-width: 70pc;
+  text-wrap: pretty;
 }
 
 @media (max-width: 1199px) {

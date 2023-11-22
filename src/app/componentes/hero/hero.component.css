@@ -45,6 +45,9 @@
   color: #fff;
   max-width: 40%;
   z-index: 2;
+  background-color: #09121aad;
+  padding: 2rem;
+  border-radius: 65px 65px 65px 2px;
 }
 
 #carouselHeroCaptions .carousel-inner .carousel-caption .getstarted {
@@ -69,11 +72,11 @@
     right: 15%;
     bottom: 15%;
     left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding: 1.25rem 0px;
     color: #fff;
     max-width: 60%;
     z-index: 2;
+    background-color: transparent;
   }
 }
 
@@ -84,10 +87,9 @@
     right: 15%;
     bottom: 12%;
     left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
     color: #fff;
     max-width: 60%;
     z-index: 2;
+    font-size: larger;
   }
 }
