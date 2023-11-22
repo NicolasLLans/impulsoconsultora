@@ -2,7 +2,7 @@
 # Hero Section
 --------------------------------------------------------------
 #id="carouselHeroCaptions"*/
-.getstarted{
+.getstarted {
   text-decoration: none;
 }
 #carouselHeroCaptions {
@@ -32,6 +32,9 @@
 }
 
 #carouselHeroCaptions .carousel-inner .carousel-caption {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
   text-align: start;
   position: absolute;
   right: 15%;
@@ -58,7 +61,6 @@
   color: var(--text-color-b);
   background: var(--secondary-color);
 }
-
 
 @media (max-width: 850px) {
   #carouselHeroCaptions .carousel-inner .carousel-caption {
