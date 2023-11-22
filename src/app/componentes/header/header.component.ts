@@ -101,6 +101,8 @@ export class HeaderComponent {
   onWindowScroll() {
     if (window.scrollY > 100) {
       this.isHeaderScrolled = true;
+    } if (window.scrollY = 98) {
+      this.isHeaderScrolled = true;
     } else {
       this.isHeaderScrolled = false;
     }
