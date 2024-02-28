@@ -19,45 +19,21 @@
         <li>
           <a class="nav-link scrollto active" routerLink="/inicio">Inicio</a>
         </li>
-        <li class="dropdown">
+        <li class="dropdown d-flex" style="flex-wrap: wrap;">
           <a
             class="nav-link scrollto"
             [routerLink]="['/servicios']"
             fragment="contabilidad"
-            ><span>Servicios</span> <i class="bi bi-chevron-down"></i
-          ></a>
-          <ul>
+            ><span>Servicios</span></a>
+            <a class="dropdown-toggle"></a>
+          <ul class="">
             <li>
               <a
                 class="nav-link scrollto"
                 [routerLink]="['/servicios']"
                 fragment="contabilidad"
-                >Contabilidad</a
-              >
-            </li>
-            <li>
-              <a
-                class="nav-link scrollto"
-                [routerLink]="['/servicios']"
-                fragment="impuestos"
-                ><span>Impuestos</span></a
-              >
-            </li>
-            <li>
-              <a
-                class="nav-link scrollto"
-                [routerLink]="['/servicios']"
-                fragment="auditoria"
-                >Auditoria</a
-              >
-            </li>
-            <li>
-              <a
-                class="nav-link scrollto"
-                [routerLink]="['/servicios']"
-                fragment="sueldos"
-                >Sueldos</a
-              >
+                >Diagnóstico económico y financiero
+              </a>
             </li>
             <li>
               <a
@@ -71,27 +47,44 @@
               <a
                 class="nav-link scrollto"
                 [routerLink]="['/servicios']"
-                fragment="servicios-digitales"
-                >Servicios digitales</a
+                fragment="skills"
+                >Recursos humanos</a
               >
             </li>
             <li>
               <a
                 class="nav-link scrollto"
                 [routerLink]="['/servicios']"
-                fragment="skills"
-                >Capacitación en soft skills</a
+                fragment="impuestos"
+                ><span>Administración y gestión</span></a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="auditoria"
+                >Desarrollo del plan estratégico comercial</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="servicios-digitales"
+                >Servicios digitales</a
               >
             </li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="dropdown d-flex" style="flex-wrap: wrap;">
           <a
             class="nav-link scrollto"
             [routerLink]="['/quienes-somos']"
             fragment="quienes-somos"
-            ><span>Quienes somos</span> <i class="bi bi-chevron-down"></i
-          ></a>
+            ><span>Quiénes somos</span>
+          </a>
+          <a class="dropdown-toggle"></a>
           <ul>
             <li>
               <a
