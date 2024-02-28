@@ -229,6 +229,12 @@ article p {
 
 
 @media (max-width: 980px) {
+  .titulo-h1{
+    padding: 1rem;
+  }
+  .parrafo-q-s{
+    padding: 1rem;
+  }
   .mobile-responsive{
     display: flex;
   }
