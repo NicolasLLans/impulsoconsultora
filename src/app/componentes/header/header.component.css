@@ -181,6 +181,18 @@
 .mobile-nav-toggle.bi-x {
   color: var(--text-color-b);
 }
+.version-mobile{
+  display: none !important;
+}
+
+@media (max-width: 980px) {
+  .version-mobile{
+    display: flex !important;
+  }
+  .version-desktop{
+    display: none !important;
+  }
+}
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {

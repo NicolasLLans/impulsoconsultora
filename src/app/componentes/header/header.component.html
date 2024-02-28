@@ -77,7 +77,7 @@
             </li>
           </ul>
         </li>
-        <li class="dropdown d-flex" style="flex-wrap: wrap;">
+        <li class="dropdown d-flex version-desktop" style="flex-wrap: wrap;">
           <a
             class="nav-link scrollto"
             [routerLink]="['/quienes-somos']"
@@ -119,6 +119,54 @@
                 style="cursor: pointer"
                 [routerLink]="['/quienes-somos']"
                 fragment="rol"
+                >Rol</a
+              >
+            </li>
+          </ul>
+        </li>
+        <!-- Version responsive-->
+        <li class="dropdown d-flex version-mobile" style="flex-wrap: wrap;">
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/quienes-somos']"
+            fragment="quienes-somos"
+            ><span>Quiénes somos</span>
+          </a>
+          <a class="dropdown-toggle"></a>
+          <ul>
+            <li>
+              <a
+                id="vision-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="vision-responsive"
+                >Visión</a
+              >
+            </li>
+            <li>
+              <a
+                id="cultura-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="cultura-responsive"
+                >Cultura</a
+              >
+            </li>
+            <li>
+              <a
+                id="valores-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="valores-responsive"
+                >Valores</a
+              >
+            </li>
+            <li>
+              <a
+                id="rol-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="rol-responsive"
                 >Rol</a
               >
             </li>
