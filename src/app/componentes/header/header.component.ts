@@ -84,6 +84,7 @@ export class HeaderComponent {
         });
       });
   
+      /* cambiar el estado del menu mobile */
       const dropdownLinks = this.elementRef.nativeElement.querySelectorAll('.navbar .dropdown > a');
       dropdownLinks.forEach((link: HTMLElement) => {
         link.addEventListener('click', (e: Event) => {
