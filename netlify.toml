@@ -1,6 +1,6 @@
 [build]
   command = "pnpm build"
-  publish = "dist/impulsoconsultora/browser"
+  publish = "dist/impulsoconsultora"
 
 [build.environment]
   NETLIFY_BUILD_IMAGE = "jammy"
