@@ -43,11 +43,13 @@
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  max-width: 40%;
   z-index: 2;
   background-color: #09121aad;
-  padding: 2rem;
+  max-width: 40% !important;
+  min-height: 30vh;
+  padding: 3rem;
   border-radius: 65px 65px 65px 2px;
+  justify-content: space-evenly;
 }
 
 #carouselHeroCaptions .carousel-inner .carousel-caption .getstarted {
@@ -77,6 +79,8 @@
     max-width: 60%;
     z-index: 2;
     background-color: transparent;
+    max-width: 100% !important;
+    min-height: auto;
   }
 }
 

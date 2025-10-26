@@ -10,9 +10,10 @@ header {
 
 .contenedor-card {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  padding: 0 10%;
-  gap: 25px;
+  max-width: 1300px;
+  gap: 20px;
   justify-content: center;
 }
 
@@ -20,6 +21,7 @@ header {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   margin-bottom: 20px;
   justify-content: space-between;
+  width: 300px;
 }
 
 .card img{
@@ -31,6 +33,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .card a {
@@ -64,4 +67,10 @@ p span{
 
 h5{
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
 }
