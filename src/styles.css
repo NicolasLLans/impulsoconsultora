@@ -1,19 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
 /* colors.css */
 :root {
-      --primary-color: #133f6c;
-      --secondary-color: #00bbd4;
-      --text-color: #333;
-      --text-color-b: #fff;
-      --background-color: #fff;
-      --box-shadow:0px 0px 30px rgba(127, 137, 161, 0.25);
-    }
+  --primary-color: #133f6c;
+  --secondary-color: #00bbd4;
+  --text-color: #333;
+  --text-color-b: #fff;
+  --background-color: #fff;
+  --box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
 
-h2{
+h2 {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 500;
 }
 
-app-quienes-somos{
-  display: flex; flex-direction: column;align-items: center;
+app-quienes-somos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-cta {
+  background-color: var(--primary-color);
+  color: rgb(255, 253, 253);
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-cta:hover {
+  background-color: var(--secondary-color);
+  color: rgb(255, 253, 253);
+  text-decoration: none;
+}
+
+.call-to-action {
+  background-color: var(--background-color);
+  margin: 40px auto -100px auto;
+  color: var(--primary-color);
+  padding: 30px;
+  border: solid 2px var(--primary-color);
+  border-radius: 8px;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

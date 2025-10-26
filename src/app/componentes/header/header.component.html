@@ -1,8 +1,17 @@
-<header id="header" class="fixed-top" [ngClass]="{ 'header-scrolled': isHeaderScrolled }">
+<header
+  id="header"
+  class="fixed-top"
+  [ngClass]="{ 'header-scrolled': isHeaderScrolled }"
+>
   <div class="container d-flex align-items-center">
     <h3 class="logo me-auto">
       <a href="#">
-        <img src="assets\img\logo-impulso-b.png" alt="impulso consultora" width="155.16" height="39.98" />
+        <img
+          src="assets\img\logo-impulso-b.png"
+          alt="impulso consultora"
+          width="155.16"
+          height="39.98"
+        />
       </a>
     </h3>
     <nav id="navbar" class="navbar">
@@ -10,87 +19,196 @@
         <li>
           <a class="nav-link scrollto active" routerLink="/inicio">Inicio</a>
         </li>
-        <li class="dropdown d-flex" style="flex-wrap: wrap;">
-          <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="contabilidad"><span>Servicios</span></a>
+        <li class="dropdown d-flex" style="flex-wrap: wrap">
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/servicios']"
+            fragment="contabilidad"
+            ><span>Servicios</span></a
+          >
           <a class="dropdown-toggle"></a>
           <ul class="">
             <li>
-              <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="contabilidad">Diagnóstico económico y
-                financiero
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="contabilidad"
+                >Diagnóstico económico y financiero
               </a>
             </li>
             <li>
-              <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="financiamiento">Finanzas</a>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="financiamiento"
+                >Finanzas</a
+              >
             </li>
             <li>
-              <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="skills">Recursos humanos</a>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="skills"
+                >Recursos humanos</a
+              >
             </li>
             <li>
-              <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="impuestos"><span>Administración y
-                  gestión</span></a>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="impuestos"
+                ><span>Administración y gestión</span></a
+              >
             </li>
             <li>
-              <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="auditoria">Desarrollo del plan
-                estratégico comercial</a>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="auditoria"
+                >Desarrollo del Plan Estratégico Empresarial</a
+              >
             </li>
             <li>
-              <a class="nav-link scrollto" [routerLink]="['/servicios']" fragment="servicios-digitales">Servicios
-                digitales</a>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="servicios-digitales"
+                >Transformación Digital y Automatización
+              </a>
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="legales"
+                >Legales
+              </a>
+            </li>
+            <li>
+              <a
+                class="nav-link scrollto"
+                [routerLink]="['/servicios']"
+                fragment="comercial"
+                >Comercial & Marketing
+              </a>
             </li>
           </ul>
         </li>
-        <li class="dropdown d-flex version-desktop" style="flex-wrap: wrap;">
-          <a class="nav-link scrollto" [routerLink]="['/quienes-somos']" fragment="quienes-somos"><span>Quiénes
-              somos</span>
+        <li class="dropdown d-flex version-desktop" style="flex-wrap: wrap">
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/quienes-somos']"
+            fragment="quienes-somos"
+            ><span>Quiénes somos</span>
           </a>
           <a class="dropdown-toggle"></a>
           <ul>
             <li>
-              <a id="vision-link" style="cursor: pointer" [routerLink]="['/quienes-somos']" fragment="vision">Visión</a>
+              <a
+                id="vision-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="vision"
+                >Visión</a
+              >
             </li>
             <li>
-              <a id="cultura-link" style="cursor: pointer" [routerLink]="['/quienes-somos']"
-                fragment="cultura">Cultura</a>
+              <a
+                id="cultura-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="cultura"
+                >Cultura</a
+              >
             </li>
             <li>
-              <a id="valores-link" style="cursor: pointer" [routerLink]="['/quienes-somos']"
-                fragment="valores">Valores</a>
+              <a
+                id="valores-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="valores"
+                >Valores</a
+              >
             </li>
             <li>
-              <a id="rol-link" style="cursor: pointer" [routerLink]="['/quienes-somos']" fragment="rol">Rol</a>
+              <a
+                id="rol-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="rol"
+                >Rol</a
+              >
             </li>
           </ul>
         </li>
         <!-- Version responsive-->
-        <li class="dropdown d-flex version-mobile" style="flex-wrap: wrap;">
-          <a class="nav-link scrollto" [routerLink]="['/quienes-somos']" fragment="quienes-somos"><span>Quiénes
-              somos</span>
+        <li class="dropdown d-flex version-mobile" style="flex-wrap: wrap">
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/quienes-somos']"
+            fragment="quienes-somos"
+            ><span>Quiénes somos</span>
           </a>
           <a class="dropdown-toggle"></a>
           <ul>
             <li>
-              <a class="nav-link scrollto" id="vision-link" style="cursor: pointer" [routerLink]="['/quienes-somos']"
-                fragment="vision-responsive">Visión</a>
+              <a
+                class="nav-link scrollto"
+                id="vision-link"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="vision-responsive"
+                >Visión</a
+              >
             </li>
             <li>
-              <a id="cultura-link " class="nav-link scrollto"style="cursor: pointer" [routerLink]="['/quienes-somos']"
-                fragment="cultura-responsive">Cultura</a>
+              <a
+                id="cultura-link "
+                class="nav-link scrollto"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="cultura-responsive"
+                >Cultura</a
+              >
             </li>
             <li>
-              <a id="valores-link " class="nav-link scrollto" style="cursor: pointer" [routerLink]="['/quienes-somos']"
-                fragment="valores-responsive">Valores</a>
+              <a
+                id="valores-link "
+                class="nav-link scrollto"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="valores-responsive"
+                >Valores</a
+              >
             </li>
             <li>
-              <a id="rol-link" class="nav-link scrollto" style="cursor: pointer" [routerLink]="['/quienes-somos']"
-                fragment="rol-responsive">Rol</a>
+              <a
+                id="rol-link"
+                class="nav-link scrollto"
+                style="cursor: pointer"
+                [routerLink]="['/quienes-somos']"
+                fragment="rol-responsive"
+                >Rol</a
+              >
             </li>
           </ul>
         </li>
         <li>
-          <a class="nav-link scrollto" [routerLink]="['/contacto']" fragment="contacto">Contacto</a>
+          <a
+            class="nav-link scrollto"
+            [routerLink]="['/contacto']"
+            fragment="contacto"
+            >Contacto</a
+          >
         </li>
         <li>
-          <a class="getstarted scrollto" id="cta" href="https://wa.link/y67gh1" target="_blank">Asesoramiento</a>
+          <a
+            class="getstarted scrollto"
+            id="cta"
+            href="https://wa.link/y67gh1"
+            target="_blank"
+            >Asesoramiento</a
+          >
         </li>
       </ul>
       <i class="mobile-nav-toggle bi bi-list"></i>

@@ -274,14 +274,21 @@
 
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
+  padding: 12px 0;
+  border-bottom:1px solid #bebebe;
 }
 
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
+  text-wrap: auto;
 }
 
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
+}
+
+.dropdown-active {
+  padding: 0 !important;
 }
 
 .navbar-mobile .dropdown ul a:hover,
