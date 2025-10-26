@@ -18,6 +18,7 @@
   place-items: center;
   min-height: 800px;
   justify-content: center;
+  padding-top: 100px;
 }
 
 i {

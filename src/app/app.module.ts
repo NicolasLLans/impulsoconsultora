@@ -15,6 +15,7 @@ import { InicioComponent } from './inicio/inicio/inicio.component';
 import { ContactoComponent } from './contacto/contacto/contacto.component';
 import { BotonSubirComponent } from './componentes/boton-subir/boton-subir.component';
 import { ServicioComponent } from './servicios/servicio/servicio.component';
+import { CtaBannerComponent } from "src/app/componentes/cta-banner/cta-banner.component";
 
 @NgModule({
   declarations: [
@@ -34,8 +35,9 @@ import { ServicioComponent } from './servicios/servicio/servicio.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
-  ],
+    HttpClientModule,
+    CtaBannerComponent
+],
   providers: [],
   bootstrap: [AppComponent]
 })

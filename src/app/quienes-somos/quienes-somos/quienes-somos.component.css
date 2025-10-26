@@ -229,11 +229,15 @@ article p {
 
 
 @media (max-width: 980px) {
+  .quienes-somos-texto{
+    flex: none;
+  }
   .titulo-h1{
     padding: 1rem;
   }
   .parrafo-q-s{
     padding: 1rem;
+    max-width: 25pc;
   }
   .mobile-responsive{
     display: flex;
@@ -271,10 +275,6 @@ article p {
 
   .card {
     width: 100%;
-  }
-
-  .principal {
-    flex-direction: column;
   }
 
   .col{
