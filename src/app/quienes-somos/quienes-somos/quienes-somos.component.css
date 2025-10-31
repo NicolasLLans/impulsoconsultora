@@ -3,7 +3,7 @@ section {
 }
 
 .primera-seccion {
-  background-image: url(https://plus.unsplash.com/premium_photo-1683120730432-b5ea74bd9047?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(../../../assets/img/vision-v4.webp);
   background-position-x: center;
   background-size: cover;
   height: 630px;
@@ -17,7 +17,7 @@ section {
 }
 
 .segunda-seccion {
-  background-image: url(https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(../../../assets/img/cultura-v4.webp);
   background-position: bottom left;
   background-size: cover;
   height: 630px;
@@ -95,19 +95,19 @@ section {
 .card-cultura {
   position: absolute;
   right: -120px;
-  top: 220px;
+  top: 280px;
 }
 
 .card-vision {
   position: absolute;
   left: -140px;
-  top: -134px;
+  top: -185px;
 }
 
 .card-rol {
   position: absolute;
   right: -120px;
-  bottom: -650px;
+  bottom: -700px;
 }
 
 .card-body {
@@ -292,5 +292,15 @@ article p {
   .about {
     width: 100%;
     border-radius: 2rem;
+  }
+
+  .segunda-seccion {
+    background-position: bottom right;
+  }
+
+  .primera-seccion {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:contain;
   }
 }
